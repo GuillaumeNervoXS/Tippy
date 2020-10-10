@@ -110,23 +110,4 @@ class MainActivity : AppCompatActivity() {
         tvTotalAmount.text = "%.2f".format(totalAmount)
     }
 
-
-
-//    private fun computeTipSplitAndTotal() {
-//        // function to compute the tip based on the base and tip percentage
-//        if (etBase.text.isEmpty() || etNumberPeople.text.isEmpty()) {
-//            tvTipAmount.text = ""
-//            tvTotalAmount.text = ""
-//            return
-//        }
-//        val baseAmount = etBase.text.toString().toDouble()
-//        val tipPercentage = seekBarTip.progress
-//        val tipAmount = baseAmount * tipPercentage / 100
-//        val nbrSplit = etNumberPeople.text.toString().toInt()
-//        val totalAmount = (baseAmount + tipAmount) / nbrSplit
-//        tvTipAmount.text = "%.2f".format(tipAmount)
-//        tvTotalAmount.text = "%.2f".format(totalAmount)
-//    }
-
-
 }
